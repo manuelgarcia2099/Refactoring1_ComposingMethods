@@ -1,33 +1,52 @@
 package cm1_extractMethod;
+
+import org.apache.log4j.Logger;
+
 /**
  * @author Manuel García 2018
- * Problema Ejemplo para uso de Técnicas de Refactoración
  */
 public class ProblemaCm1 {
 	
-	private static String nombre;
-	private static double monto;
-
-	public static void main(String[] args) {
-		monto = 200.0;
-		nombre = "San Juan S.A";
-		
-		imprimirDeuda();
-	}
+	private static final Logger log = Logger.getLogger(ProblemaCm1.class);
 	
-	private static void imprimirDeuda() {
-		
+	private String nombre;
+	private double monto;
+	
+	public ProblemaCm1 (String nombre, double monto) {
+		this.nombre=nombre;
+		this.monto=monto;
+	}
+
+	public void imprimirDeuda() {
 		imprimirCabecera();
 		
 		//Imprime Detalles
-		System.out.println("nombre de Empresa: "+ nombre);
-		System.out.println("monto: "+monto);		
+		String resultado = " ";
+		resultado += " Nombre de Empresa: "+ this.getNombre();
+		resultado += " Total a pagar: "+ this.getMonto();	
+		
+		log.debug("Resultado=> "+resultado);
+	}
+	
+	public String imprimirCabecera() {
+			String resultado = "Emisión de Reporte";
+			return resultado;
 	}
 
-	private static void imprimirCabecera() {
-			System.out.println("*********************************");
-			System.out.println("*****  Emisión de Reporte   *****");
-			System.out.println("*********************************");
+	public String getNombre() {
+		return nombre;
 	}
 
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public double getMonto() {
+		return monto;
+	}
+
+	public void setMonto(double monto) {
+		this.monto = monto;
+	}
+	
 }
