@@ -1,7 +1,6 @@
 package cm1_extractMethod;
 
 import org.apache.log4j.Logger;
-
 /**
  * @author Manuel García 2018
  */
@@ -29,7 +28,7 @@ public class Ej1_Problema {
 	}
 	
 	public String imprimirCabecera() {
-			String resultado = "Emisión de Reporte";
+			String resultado = "Emisión de Reporte Ej1 ";
 			return resultado;
 	}
 

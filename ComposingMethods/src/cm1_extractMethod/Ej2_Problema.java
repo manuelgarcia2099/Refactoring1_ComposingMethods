@@ -1,7 +1,6 @@
 package cm1_extractMethod;
 
 import org.apache.log4j.Logger;
-
 /**
  * @author Manuel García 2018
  */
@@ -21,13 +20,13 @@ public class Ej2_Problema {
 		String resultado ="";
 		
 		//#R
-		resultado += " Emisión de Reporte |";
+		resultado += " Emisión de Reporte Ej2|";
 		resultado += " GMP Soluciones Generales |";
 		resultado += " @ Copyright 2018 - 2020 |";
 		
 		//Imprime Detalles
 		resultado += " Nombre de Empresa: "+ this.getNombre();
-		resultado += " Total a pagar: "+ this.getMonto();	
+		resultado += " Deuda sin impuesto: "+ this.getMonto();	
 		
 		log.debug("Resultado=> "+resultado);
 	}

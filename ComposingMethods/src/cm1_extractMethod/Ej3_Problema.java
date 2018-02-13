@@ -4,33 +4,37 @@ import org.apache.log4j.Logger;
 /**
  * @author Manuel García 2018
  */
-public class Ej1_SolNatural {
+public class Ej3_Problema {
 	
-	private static final Logger log = Logger.getLogger(Ej1_SolNatural.class);
-
+	private static final Logger log = Logger.getLogger(Ej3_Problema.class);
+	
 	private String nombre;
 	private double monto;
 	
-	public Ej1_SolNatural (String nombre, double monto) {
+	public Ej3_Problema (String nombre, double monto) {
 		this.nombre=nombre;
 		this.monto=monto;
 	}
 
 	public void imprimirDeuda() {
-		imprimirCabecera();		
-		imprimirDetalle();		
-	}
-	
-	public String imprimirCabecera() {
-		String resultado = "Emisión de Reporte Ej1 ";
-		return resultado;
-	}
-
-	private void imprimirDetalle() {
+		imprimirCabecera();
+		
+		//Imprime Detalles
 		String resultado = " ";
 		resultado += " Nombre de Empresa: "+ this.getNombre();
 		resultado += " Total a pagar: "+ this.getMonto();	
+		
+		//#R
+		double impuesto = (this.getMonto()*1.8)/100;
+		resultado += " Impuesto: "+impuesto;
+		resultado += " Total a pagar (Con impuesto): "+(this.getMonto()+impuesto);
+		
 		log.debug("Resultado=> "+resultado);
+	}
+	
+	public String imprimirCabecera() {
+			String resultado = "Emisión de Reporte";
+			return resultado;
 	}
 
 	public String getNombre() {
@@ -48,5 +52,5 @@ public class Ej1_SolNatural {
 	public void setMonto(double monto) {
 		this.monto = monto;
 	}
-
+	
 }
