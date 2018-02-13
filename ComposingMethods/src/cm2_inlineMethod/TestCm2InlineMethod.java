@@ -36,7 +36,7 @@ class TestCm2InlineMethod {
 		clienteSolucion5.agregarProducto(producto1);
 		clienteSolucion5.agregarProducto(producto2);
 		clienteSolucion5.agregarProducto(producto3);
-//		clienteSolucion5.agregarProducto(producto4);
+		clienteSolucion5.agregarProducto(producto4);
 		
 		clienteSolucion5.imprimirDeuda();
 	}
