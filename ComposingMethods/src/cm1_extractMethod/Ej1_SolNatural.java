@@ -5,14 +5,14 @@ import org.apache.log4j.Logger;
 /**
  * @author Manuel García 2018
  */
-public class Ej1_Solucion {
+public class Ej1_SolNatural {
 	
-	private static final Logger log = Logger.getLogger(Ej1_Solucion.class);
+	private static final Logger log = Logger.getLogger(Ej1_SolNatural.class);
 
 	private String nombre;
 	private double monto;
 	
-	public Ej1_Solucion (String nombre, double monto) {
+	public Ej1_SolNatural (String nombre, double monto) {
 		this.nombre=nombre;
 		this.monto=monto;
 	}
