@@ -1,6 +1,8 @@
 package cm1_extractMethod;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+
+import helpers.Producto;
 /**
  * @author Manuel García 2018
  */
@@ -37,9 +39,38 @@ class TestCm1ExtractMethod {
 	}
 	
 	@Test
-	void testEj2_SolConVarLocal() {
+	void testEj3_SolConVarLocal() {
 		Ej3_SolConVarLocal solucion3 = new Ej3_SolConVarLocal("Empresa 3.1 S.A",300);
 		solucion3.imprimirDeuda();
+	}
+	
+	@Test
+	void testEj4_Problema() {
+		Ej4_Problema clienteProblema4 = new Ej4_Problema("Empresa 4 S.A");
+		
+		Producto producto1 = new Producto("Camiseta",200);
+		Producto producto2 = new Producto("Zapatos",150);
+		Producto producto3 = new Producto("Gorra",50);
+		
+		clienteProblema4.agregarProducto(producto1);
+		clienteProblema4.agregarProducto(producto2);
+		clienteProblema4.agregarProducto(producto3);
+		
+		clienteProblema4.imprimirDeuda();
+	}
+	
+	@Test
+	void testEj4_SolModificarVarLocal() {
+		Ej4_SolModificarVarLocal clienteSolucion4 = new Ej4_SolModificarVarLocal("Empresa 4.1 S.A");
+		Producto producto1 = new Producto("Camiseta",200);
+		Producto producto2 = new Producto("Zapatos",150);
+		Producto producto3 = new Producto("Gorra",50);
+		
+		clienteSolucion4.agregarProducto(producto1);
+		clienteSolucion4.agregarProducto(producto2);
+		clienteSolucion4.agregarProducto(producto3);
+		
+		clienteSolucion4.imprimirDeuda();
 	}
 
 }
