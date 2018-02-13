@@ -1,4 +1,4 @@
-package cm2_inlineMethod;
+package cm3_inlineTemp;
 
 import java.util.Enumeration;
 import java.util.Vector;
