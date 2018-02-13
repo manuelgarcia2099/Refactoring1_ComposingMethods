@@ -1,6 +1,7 @@
 package cm1_extractMethod;
 /**
  * @author Manuel García 2018
+ * Problema Ejemplo para uso de Técnicas de Refactoración
  */
 public class ProblemaCm1 {
 	
