@@ -5,7 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 import cm5_introduceExplainingVar.Ej8_Problema;
-
+/**
+ * @author Manuel García 2018
+ */
 class TestCm6SplitTempVar {
 
 	@Test

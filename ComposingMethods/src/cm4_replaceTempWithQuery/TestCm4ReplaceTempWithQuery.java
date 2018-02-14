@@ -7,7 +7,9 @@ import org.junit.jupiter.api.Test;
 import cm3_inlineTemp.Ej6_Problema;
 import cm5_introduceExplainingVar.Ej8_Problema;
 import helpers.Producto;
-
+/**
+ * @author Manuel García 2018
+ */
 class TestCm4ReplaceTempWithQuery {
 
 	@Test

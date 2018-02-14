@@ -8,7 +8,9 @@ import java.util.Date;
 import org.apache.log4j.Logger;
 
 import cm5_introduceExplainingVar.Ej8_SolIntroduceExplainingVar;
-
+/**
+ * @author Manuel García 2018
+ */
 public class Ej9_SolSplitTempVar {
 	
 	private static final Logger log = Logger.getLogger(Ej9_SolSplitTempVar.class);

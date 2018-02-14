@@ -5,7 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 import helpers.Producto;
-
+/**
+ * @author Manuel García 2018
+ */
 class TestCm2InlineMethod {
 
 	@Test

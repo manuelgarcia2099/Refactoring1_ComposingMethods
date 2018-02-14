@@ -1,5 +1,7 @@
 package cm6_splitTemporaryVar;
-
+/**
+ * @author Manuel García 2018
+ */
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

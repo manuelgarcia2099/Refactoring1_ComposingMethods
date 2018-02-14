@@ -1,7 +1,9 @@
 package cm5_introduceExplainingVar;
 
 import org.apache.log4j.Logger;
-
+/**
+ * @author Manuel García 2018
+ */
 public class Ej8_SolIntroduceExplainingVar {
 	
 	private static final Logger log = Logger.getLogger(Ej8_SolIntroduceExplainingVar.class);

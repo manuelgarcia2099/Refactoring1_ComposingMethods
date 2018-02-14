@@ -3,7 +3,9 @@ package cm5_introduceExplainingVar;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-
+/**
+ * @author Manuel García 2018
+ */
 class TestCm5IntroduceExplainingVar {
 
 	@Test
