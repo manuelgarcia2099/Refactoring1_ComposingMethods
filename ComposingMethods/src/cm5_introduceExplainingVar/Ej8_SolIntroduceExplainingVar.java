@@ -18,7 +18,7 @@ public class Ej8_SolIntroduceExplainingVar {
 		this.cantidad=cantidad;
 	}
 	
-	public void imprimirInformación() {
+	public void imprimirInformacion() {
 		
 		String resultado="";
 		resultado += imprimirCabecera();

@@ -25,7 +25,7 @@ public class Ej8_Problema {
 		this.cantidad=cantidad;
 	}
 	
-	public void imprimirInformación() {
+	public void imprimirInformacion() {
 		
 		String resultado="";
 		resultado += imprimirCabecera();
