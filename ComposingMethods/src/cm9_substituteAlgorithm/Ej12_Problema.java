@@ -3,7 +3,9 @@ package cm9_substituteAlgorithm;
 import org.apache.log4j.Logger;
 
 import cm8_replaceMehodWithMethodObj.Ej11_Problema;
-
+/**
+ * @author Manuel García 2018
+ */
 public class Ej12_Problema {
 	
 	private static final Logger log = Logger.getLogger(Ej12_Problema.class);

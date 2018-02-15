@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-
+/**
+ * @author Manuel García 2018
+ */
 public class Ej12_SolSubstituteAlgorithm {
 	
 private static final Logger log = Logger.getLogger(Ej12_SolSubstituteAlgorithm.class);

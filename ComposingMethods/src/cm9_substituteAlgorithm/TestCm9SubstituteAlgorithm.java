@@ -3,7 +3,9 @@ package cm9_substituteAlgorithm;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-
+/**
+ * @author Manuel García 2018
+ */
 class TestCm9SubstituteAlgorithm {
 
 	@Test
